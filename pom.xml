@@ -19,11 +19,15 @@
   <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version>
-      </plugin>
+      </plugin> -->
+      <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
     </plugins>
   </build>
 </project>
